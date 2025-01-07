@@ -46,6 +46,25 @@ public enum Gender
 		}
 	},
 
+	
+	Androgyne
+	{
+		@Override
+		public String toString()
+		{
+			return LanguageBundle.getString("in_genderAndrogyne");
+		}
+	},
+
+	Epicene
+	{
+		@Override
+		public String toString()
+		{
+			return LanguageBundle.getString("in_genderEpicene");
+		}
+	},
+	
 	Neuter
 	{
 		@Override
